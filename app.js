@@ -158,7 +158,7 @@ const app = Vue.createApp({
                     category: "Website",
                     year: "2023",
                     client: "DINSOSDALDUKKBP3A Purbalingga",
-                    tech: "Python (Django), Leaflet Js, MySQL",
+                    tech: "Python (Django), Bootstrap 4, Leaflet Js, MySQL",
                     web: "",
                     github: "",
                     description: "Project to fulfill the requirements of the final thesis. The aim is to map people with social welfare problems and those who receive assistance. It is hoped that this system can help in choosing the right recipient of assistance.",
@@ -173,7 +173,7 @@ const app = Vue.createApp({
                     category: "Website",
                     year: "2022",
                     client: "Ultranesia",
-                    tech: "PHP (Codeigniter 3), QR code, MySQL",
+                    tech: "PHP (Codeigniter 3), Bootstrap 4, QR code, MySQL",
                     web: "",
                     github: "",
                     description: "",
@@ -187,10 +187,10 @@ const app = Vue.createApp({
                     category: "Website",
                     year: "2021",
                     client: "-",
-                    tech: "PHP (Codeigniter 3), MySQL",
+                    tech: "PHP (Codeigniter 3), Bootstrap 4, MySQL",
                     web: "",
                     github: "",
-                    description: "Project to fulfill the final assignment of the E-commerce and Web Programming course. Users can view products, place orders, and confirm payments.",
+                    description: "Final project for E-commerce and Web Programming course. Users can view products, place orders, and confirm payments.",
                     port_image:[
                         "assets/img/portfolio/toko1.png",
                         "assets/img/portfolio/toko2.png",
@@ -225,6 +225,21 @@ const app = Vue.createApp({
                         "assets/img/portfolio/flutter2.png",
                         "assets/img/portfolio/flutter3.png",
                     ]
+                },
+                {
+                    port_name: "Portfolio Website 2.0",
+                    category: "Website",
+                    year: "2024",
+                    client: "-",
+                    tech: "HTML, Bootstrap 4, Vue Js",
+                    web: "",
+                    github: "",
+                    description: "A responsive and interactive portfolio website is designed to showcase my skills, track record, and resume in an engaging manner.",
+                    port_image:[
+                        "assets/img/portfolio/portfolio1.png",
+                        "assets/img/portfolio/portfolio2.png",
+                        "assets/img/portfolio/portfolio3.png",
+                    ]
                 }
             ],
             services:[
@@ -251,6 +266,11 @@ const app = Vue.createApp({
                     certif_name: "Mini Bootcamp Larareact",
                     giver: "PT Toko Dizital Teknologi",
                     image: "assets/img/certificates/22-1.png"
+                },
+                {
+                    certif_name: "DELF A1",
+                    giver: "Institut Français d'Indonésie",
+                    image: "assets/img/certificates/DELF A1_rotated_page-0001.jpg"
                 }
             ]
         }
