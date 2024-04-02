@@ -36,13 +36,13 @@ const app = Vue.createApp({
                     gpa: "GPA: 3.85/4.00",
                     year: "2019 - 2023",
                     degree: "Bachelor of Computer Science"
-                },
-                {
-                    school: "SMA N 4 Purwokerto",
-                    gpa: "GPA: 32.85/40.00",
-                    year: "2016 - 2019",
-                    degree: "Science"
                 }
+                // {
+                //     school: "SMA N 4 Purwokerto",
+                //     gpa: "GPA: 32.85/40.00",
+                //     year: "2016 - 2019",
+                //     degree: "Science"
+                // }
             ],
             experience:[
                 {
@@ -56,8 +56,8 @@ const app = Vue.createApp({
                     ]
                 },
                 {
-                    position:"Back End Developer",
-                    company:"Ultranesia",
+                    position:"Full Stack Developer (Intern)",
+                    company:"Ultranesia (PT Noto teknologi Indonesia)",
                     year: "Mar 2022 - Aug 2022",
                     jobdesk: [
                         "Produce an asset management information system with QR Code technology to make it easier for users to check assets.",
@@ -161,7 +161,7 @@ const app = Vue.createApp({
                     tech: "Python (Django), Leaflet Js, MySQL",
                     web: "",
                     github: "",
-                    description: "",
+                    description: "Project to fulfill the requirements of the final thesis. The aim is to map people with social welfare problems and those who receive assistance. It is hoped that this system can help in choosing the right recipient of assistance.",
                     port_image:[
                         "assets/img/portfolio/siban.png",
                         "assets/img/portfolio/siban2.png",
@@ -181,6 +181,50 @@ const app = Vue.createApp({
                         "assets/img/portfolio/simaset.png",
                         "assets/img/portfolio/simaset2.png"
                     ]
+                },
+                {
+                    port_name: "Toko Online",
+                    category: "Website",
+                    year: "2021",
+                    client: "-",
+                    tech: "PHP (Codeigniter 3), MySQL",
+                    web: "",
+                    github: "",
+                    description: "Project to fulfill the final assignment of the E-commerce and Web Programming course. Users can view products, place orders, and confirm payments.",
+                    port_image:[
+                        "assets/img/portfolio/toko1.png",
+                        "assets/img/portfolio/toko2.png",
+                        "assets/img/portfolio/toko3.png"
+                    ]
+                },
+                {
+                    port_name: "Portfolio Website",
+                    category: "Website",
+                    year: "2023",
+                    client: "-",
+                    tech: "HTML, CSS, Javascript",
+                    web: "https://fikka-aps.github.io/portfolio.io",
+                    github: "https://github.com/fikka-aps/portfolio.io",
+                    description: "Project for completing Virtual Internship at Nusa Development Program (NDP)",
+                    port_image:[
+                        "assets/img/portfolio/porto1.png",
+                        "assets/img/portfolio/porto2.png"
+                    ]
+                },
+                {
+                    port_name: "Mobile E-commerce",
+                    category: "App",
+                    year: "2021",
+                    client: "-",
+                    tech: "Dart, Flutter",
+                    web: "",
+                    github: "",
+                    description: "Project for Programming Mobile Course",
+                    port_image:[
+                        "assets/img/portfolio/flutter1.png",
+                        "assets/img/portfolio/flutter2.png",
+                        "assets/img/portfolio/flutter3.png",
+                    ]
                 }
             ],
             services:[
@@ -197,6 +241,11 @@ const app = Vue.createApp({
                     certif_name: "Data Science Fundamentals",
                     giver: "DQLab",
                     image: "assets/img/certificates/certificate-Data Science Fundamental_pages-to-jpg-0001.jpg"
+                },
+                {
+                    certif_name: "Project-Based Internship",
+                    giver: "Nusa Development Program (NDP)",
+                    image: "assets/img/certificates/Certificate-Project Based Internship at NDP_page-0001.jpg"
                 },
                 {
                     certif_name: "Mini Bootcamp Larareact",

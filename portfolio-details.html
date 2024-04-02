@@ -26,6 +26,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="icon" href="assets/img/pikkachuuu.jpg" type="image/x-icon">
 
   <!-- =======================================================
   * Template Name: MyResume
@@ -42,7 +43,7 @@
 
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
-      <button id="backButton" class="mb-2" ><i class="bx bx-left-arrow-alt"></i></button>
+      <button id="backButton" class="mb-2 btn btn-dark" ><i class="bx bx-left-arrow-alt"></i></button>
       <div class="container">
 
 
@@ -72,8 +73,11 @@
                 <li id="client"></li>
                 <li id="year"></li>
                 <li id="tech"></li>
-                <li id="web"></li>
-                <li id="github"></li>
+                <li>
+                  <div class="d-flex gap-2" id="web-github">
+                    
+                  </div>
+                </li>
                 <li id="description"></li>
               </ul>
             </div>
@@ -128,7 +132,7 @@
           var year = document.getElementById("year");
           var tech = document.getElementById("tech");
           var image = document.getElementById("image");
-          var web = document.getElementById("web");
+          var web = document.getElementById("web-github");
           var github = document.getElementById("github");
           var description = document.getElementById("description");
 
@@ -138,12 +142,12 @@
           year.innerHTML = "<strong>Year</strong>: " + data.year;
           tech.innerHTML = "<strong>Technology</strong>: " + data.tech;
           if (data.web) {
-            web.innerHTML = "<strong>Website</strong>: " + data.web;
+            web.innerHTML = "<p><a href='"+data.web+"' target='_blank'>Launch <i class='bi bi-box-arrow-up-right'></i></a></p>";
           }
           if (data.github) {
-            github.innerHTML = "<strong>Github</strong>: " + data.github;
+            web.innerHTML += "<a href='"+data.github+"' target='_blank'>Github <i class='bi bi-github'></i></a> ";
           }
-          description.innerHTML = "<strong>Description</strong>: " + data.description;
+          description.innerHTML =  data.description;
 
           foto.forEach((item, index) => {
             let div = document.createElement('div');
