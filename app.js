@@ -283,6 +283,11 @@ const app = Vue.createApp({
                     image: "assets/img/certificates/22-1.png"
                 },
                 {
+                    certif_name: "Microsoft Azure Data Fundamentals",
+                    giver: "Talenta AI Indonesia",
+                    image: "assets/img/certificates/Certificate_51797_57_bw7pz_page-0001.jpg"
+                },
+                {
                     certif_name: "DELF A1",
                     giver: "Institut Français d'Indonésie",
                     image: "assets/img/certificates/DELF A1_rotated_page-0001.jpg"
