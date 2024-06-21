@@ -46,17 +46,17 @@ const app = Vue.createApp({
             ],
             experience:[
                 {
-                    position:"Back End Developer",
-                    company:"DINSOSDALDUKKBP3A Purbalingga",
-                    year: "Oct 2022 - Dec 2022",
+                    position:"Web Developer Intern",
+                    company:"Leaders.id",
+                    year: "April 2024 - Present",
                     jobdesk: [
-                        "Design and implement responsive user interfaces using HTML, CSS, and JavaScript.",
-                        "Obtained a user satisfaction level of 96% based on usability testing using questionnaires to users.",
-                        "Reduced the number of bugs in the application by 80% through the implementation of functional testing using blackbox testing."
+                        "Designing and developing themes for 7 websites using WordPress according to client or project requirements",
+                        "Managing and updating content on the company's website.",
+                        "Currently developing a registration system for all company programs to be integrated into a single system."
                     ]
                 },
                 {
-                    position:"Full Stack Developer (Intern)",
+                    position:"Web Developer Intern",
                     company:"Ultranesia (PT Noto teknologi Indonesia)",
                     year: "Mar 2022 - Aug 2022",
                     jobdesk: [
@@ -140,15 +140,15 @@ const app = Vue.createApp({
                     filter: "tools"
                 },
                 {
-                    skill_name: "C",
+                    skill_name: "React Js",
                     level: "Beginner",
-                    skill_image: "assets/img/c-program-icon.png",
+                    skill_image: "assets/img/react-js-icon.png",
                     filter: "lang"
                 },
                 {
-                    skill_name: "Rest API",
-                    level: "Beginner",
-                    skill_image: "assets/img/rest-api-icon.png",
+                    skill_name: "WordPress",
+                    level: "Intermediate",
+                    skill_image: "assets/img/wordpress-icon.png",
                     filter: "tools"
                 }
             ],
@@ -254,6 +254,21 @@ const app = Vue.createApp({
                         "assets/img/portfolio/portfolio1.png",
                         "assets/img/portfolio/portfolio2.png",
                         "assets/img/portfolio/portfolio3.png",
+                    ]
+                },
+                {
+                    port_name: "Duta Wisata Indonesia Website",
+                    category: "Website",
+                    year: "2024",
+                    client: "Leaders.id",
+                    tech: "Wordpress, Elementor",
+                    web: "dutawisataindonesia.id",
+                    github: "",
+                    description: "This website is a project I developed during my internship, designed with a responsive layout to ensure optimal accessibility across various devices, including desktop and mobile. It provides comprehensive and easily understandable information about the program it represents, covering key details such as objectives, benefits, registration requirements, and clear contact information for further inquiries. This project showcases the skills I've developed in web development and design during my internship, emphasizing a user-friendly experience and clarity of information.",
+                    port_image:[
+                        "assets/img/portfolio/dutawisata1.png",
+                        "assets/img/portfolio/dutawisata2.png",
+                        "assets/img/portfolio/dutawisata3.png",
                     ]
                 }
             ],
