@@ -262,7 +262,7 @@ const app = Vue.createApp({
                     year: "2024",
                     client: "Leaders.id",
                     tech: "Wordpress, Elementor",
-                    web: "dutawisataindonesia.id",
+                    web: "https://dutawisataindonesia.id",
                     github: "",
                     description: "This website is a project I developed during my internship, designed with a responsive layout to ensure optimal accessibility across various devices, including desktop and mobile. It provides comprehensive and easily understandable information about the program it represents, covering key details such as objectives, benefits, registration requirements, and clear contact information for further inquiries. This project showcases the skills I've developed in web development and design during my internship, emphasizing a user-friendly experience and clarity of information.",
                     port_image:[
