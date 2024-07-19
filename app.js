@@ -47,12 +47,12 @@ const app = Vue.createApp({
             experience:[
                 {
                     position:"Web Developer Intern",
-                    company:"Leaders.id",
-                    year: "April 2024 - Present",
+                    company:"Leaders.id (PT Bukhori Group Indonesia)",
+                    year: "April 2024 - July 2024",
                     jobdesk: [
-                        "Designing and developing themes for 7 websites using WordPress according to client or project requirements",
-                        "Managing and updating content on the company's website.",
-                        "Currently developing a registration system for all company programs to be integrated into a single system."
+                        "developed and launched a Laravel-based ticketing system with MySQL that improved event management efficiency.",
+                        "Created and maintained more than 5 landing pages with WordPress for various programs at Leaders.id.",
+                        "Managed domain and hosting using cPanel, including setup, configuration, and maintenance."
                     ]
                 },
                 {
@@ -270,6 +270,37 @@ const app = Vue.createApp({
                         "assets/img/portfolio/dutawisata2.png",
                         "assets/img/portfolio/dutawisata3.png",
                     ]
+                },
+                {
+                    port_name: "Sistem Tiket",
+                    category: "Website",
+                    year: "2024",
+                    client: "Leaders.id",
+                    tech: "Laravel, MySQL, Bootstrap",
+                    web: "",
+                    github: "",
+                    description: "This system allows for the creation of tickets with automatically generated QR codes, which can then be scanned for efficient validation and ticket usage. This solution is designed to enhance security and streamline event management.",
+                    port_image:[
+                        "assets/img/portfolio/tiket1.png",
+                        "assets/img/portfolio/tiket2.png",
+                        "assets/img/portfolio/tiket3.png",
+                    ]
+                },
+                {
+                    port_name: "Website Registrasi Program",
+                    category: "Website",
+                    year: "2024",
+                    client: "Leaders.id",
+                    tech: "Laravel (Back-end), React Js (Front-end), TailwindCSS, MySQL",
+                    web: "",
+                    github: "",
+                    description: "One of my internship projects at Leaders.id involved developing an integrated registration system for all company programs, using Laravel for the backend and React.js for the frontend. Administrators can add new programs along with registration forms that can be filled out by users.",
+                    port_image:[
+                        "assets/img/portfolio/regist1.png",
+                        "assets/img/portfolio/regist2.png",
+                        "assets/img/portfolio/regist3.png",
+                        "assets/img/portfolio/regist3.png",
+                    ]
                 }
             ],
             services:[
@@ -306,6 +337,11 @@ const app = Vue.createApp({
                     certif_name: "DELF A1",
                     giver: "Institut Français d'Indonésie",
                     image: "assets/img/certificates/DELF A1_rotated_page-0001.jpg"
+                },
+                {
+                    certif_name: "Web Developer Internship",
+                    giver: "PT Bukhori Grup Indonesia (Leaders.id)",
+                    image: "assets/img/certificates/Sertifikat Magang Fikka Ayu.jpeg"
                 }
             ]
         }
